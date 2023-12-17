@@ -1,0 +1,28 @@
+{
+    "name": "solenoid/bin",
+    "description": "HTTP BIN library",
+    "type": "library",
+    "keywords": ["http","bin","transfer"],
+    "homepage": "https://github.com/Solenoid-IT/php-bin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pier Niccolò Giannelli",
+            "email": "pierniccologiannelli@gmail.com",
+            "homepage": "https://www.solenoid.it",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "solenoid/system": "^1.0.0",
+        "solenoid/http": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solenoid\\BIN\\": "src",
+            "Solenoid\\System\\": "src",
+            "Solenoid\\HTTP\\": "src"
+        }
+    }
+}
